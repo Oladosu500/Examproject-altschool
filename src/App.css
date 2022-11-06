@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+* {
+  box-sizing: content-box;
+}
+body {
+  background-color: rgb(11, 16, 44);
+
+  margin: auto;
+
+  padding: 10px;
+  height: 100%vh;
+}
+
+.nav-bar a {
+  display: inline-block;
+  color: rgb(24, 26, 148);
+  padding: 11px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nav-bar {
+  background-color: rgb(123, 178, 204);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 15px;
+}
+
+.nav-bar a:hover {
+  color: brown;
+}
+
+.foot {
+  position: fixed;
+  background-color: gray;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  padding: 2px;
+  text-align: center;
+}
